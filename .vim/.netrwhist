@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/home/geoff'
+let g:netrw_dirhist_2='/home/geoff/Documents/perl'
+let g:netrw_dirhist_3='/home/geoff/Documents/keyboardFiles/qmk_firmware/quantum'
+let g:netrw_dirhist_4='/home/geoff/Documents/perl'
+let g:netrw_dirhist_5='/home/geoff/Documents/keyboardFiles/qmk_firmware/tmk_core/common'

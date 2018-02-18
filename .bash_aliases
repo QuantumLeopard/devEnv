@@ -1,0 +1,10 @@
+alias b="cd ../"
+alias bb="cd ../../"
+alias bbb="cd ../../../"
+alias rm="rm -i"
+alias cp="cp -i"
+alias mv="mv -i"
+alias untar="tar -xvf"
+alias which="type -all"
+alias gitgraph="git log --oneline --abbrev-commit --all -graph --decorate --color"
+
