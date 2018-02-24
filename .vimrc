@@ -9,7 +9,7 @@ set nocompatible
 set tabstop=2
 set shiftwidth=2
 set softtabstop=2
-set expandtab
+set noexpandtab
 
 set nowrap
 
@@ -32,6 +32,10 @@ nnoremap <F7> mmgg=G'm
 
 "enable mouse for split sizing
 set mouse=a
+if &term =~ "^screen"
+	set ttymouse=xterm2
+endif
+
 
 set t_Co=256
 colorscheme desert256
