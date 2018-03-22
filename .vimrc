@@ -16,8 +16,11 @@ set nowrap
 "split navigation with ctrl-<h,j,k,l>
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
-nnoremap <C-L> <C-W><C-L>
-nnoremap <C-H> <C-W><C-H>
+"nnoremap <C-L> <C-W><C-L>
+"nnoremap <C-H> <C-W><C-H>
+"tap navigation
+nnoremap <C-L> :tabnext <Enter>
+nnoremap <C-H> :tabprevious <Enter>
 
 "split sizing
 nnoremap <c-n> <c-w>3+
@@ -38,7 +41,11 @@ endif
 
 
 set t_Co=256
-colorscheme desert256
+"colorscheme desert256
+"colorscheme darkspectrum
+let g:aldmeris_transparent = 1
+let g:aldmeris_termcolors = "tango"
+colorscheme aldmeris
 set hlsearch
 
 "smooth scrolling function from Kazark/vim-SimpleSmoothScroll
