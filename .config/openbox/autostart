@@ -1,0 +1,5 @@
+compton &
+nitrogen --restore &
+tint2 &
+~/.config/openbox/fab.screenlayout.sh
+orage &

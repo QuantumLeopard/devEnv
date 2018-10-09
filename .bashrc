@@ -166,6 +166,8 @@ alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
 
+alias programGherkin="sudo /home/geoff/Downloads/arduino-1.8.3/hardware/tools/avr/bin/avrdude -C/root/.arduino15/packages/SparkFun/hardware/avr/1.1.6/avrdude.conf -v -patmega32u4 -cavr109 -P/dev/ttyACM1 -b57600 -D -Uflash:w:/home/geoff/Documents/keyboardFiles/gherkin_custom.hex:i"
+
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
